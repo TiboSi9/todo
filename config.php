@@ -43,6 +43,6 @@
 		),
 		"username"	=>	"admin",			//用户名
 		"password"	=>	"8@HrSxFaT",		//密码
-		"auth"		=>	TRUE			//是否开启访问验证
+		"auth"		=>	FALSE			//是否开启访问验证
 	);	
 ?>
