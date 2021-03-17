@@ -28,6 +28,7 @@
 		".composer",
 		".heroku",
 		".profile.d",
+		".gitattributes",
 		"zdir"
 	);
 	//设置参数
@@ -42,6 +43,6 @@
 		),
 		"username"	=>	"admin",			//用户名
 		"password"	=>	"8@HrSxFaT",		//密码
-		"auth"		=>	FALSE			//是否开启访问验证
+		"auth"		=>	TRUE			//是否开启访问验证
 	);	
 ?>
