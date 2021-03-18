@@ -147,25 +147,6 @@
 						<?php } ?>
 					</p>
 				</div>
-				<!--使用说明-->
-				<?php 
-				//判断readme文件是否存在
-					$readme_dir = $fullpath = $thedir.'/'.$dir.'/'.$showdir;
-					if( is_file($readme_dir.'/readme.md') || (is_file($readme_dir.'/README.md')) )	{	
-					$readme = con_coding($readme);
-				?>
-				<div class="layui-col-lg12" style = "margin-top:1em;">
-					<div class="layui-collapse">
-					  <div class="layui-colla-item">
-					    <h2 class="layui-colla-title">使用说明（必看）</h2>
-					    <div class="layui-colla-content">
-						    <iframe src="<?php echo './?c=readme&file='.$readme; ?>" width="100%" height="600px" name="" frameborder = "0" align="middle"></iframe>
-					    </div>
-					  </div>
-					</div>
-				</div>
-				<?php } ?>
-				<!--使用说明END-->
 			</div>
 		</div>
 	</div>
